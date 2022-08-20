@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 0 200px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.header img{
+    height: 65px;
+    width: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+    gap:100px;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9f1f8;
+}
+.hero h4, .menu a {
+    font-size: 18px;
+    font-weight: normal;
+    color: #e5e7eb;
+}
+.awesomeWebsite{
+    max-width: 600px;
+    color: white;
+}
+.awesomeWebsite button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 15px 30px;
+    border-radius: 16px;
+}
+.hero img{
+    height: 350px;
+    width: auto;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    padding: 50px 75px;
+}
+.subtitle{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+.infos{
+    display: flex;
+    gap: 160px;
+    flex-wrap: wrap;
+}
+.infos img{
+    height: 100px;
+    margin-bottom: 15px;
+}
+.infos .text {
+    text-align: center;
+    width: 120px;
+    color: #1F2937;
+}
+
+.third{
+    background-color: #E5E7EB;
+    padding: 50px 200px;
+}
+.third .quote{
+    font-size: 28px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+.third .author {
+    text-align: right;
+}
+
+.forth{
+    display: flex;
+    background-color: #3882F6;
+    padding: 15px 250px;
+    justify-content: space-between;
+    align-items: center;
+    gap:150px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+.cta h2{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+.cta h5{
+    font-size: 16px;
+    font-weight: normal;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 0;
+}
+.forth .btn2{
+    background-color: white;
+    border: none;
+    color: #3882f6;
+    font-size: 15px;
+    padding: 15px 40px;
+    border-radius: 16px;
+    
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 25px 0;
+}
+.footer .footNote{
+    font-size: 14px;
+}
